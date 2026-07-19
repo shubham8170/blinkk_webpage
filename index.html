@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blinkk — Precision Eyewear, Zeiss Lenses & Eye Care</title>
+<meta name="description" content="Blinkk — comprehensive eye tests, curated local & branded frames, and genuine Zeiss lenses at affordable prices. Enhance your vision — book your free eye test today.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/logo/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#home" class="brand brand-transparent" aria-label="Blinkk — Home">
+      <img src="assets/logo/blinkk-wordmark-only.png" alt="Blinkk" class="brand-logo-img">
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <ul>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#frames" class="nav-link">Frames</a></li>
+        <li><a href="#zeiss" class="nav-link">Zeiss Lenses</a></li>
+        <li><a href="#services" class="nav-link">Eye Test</a></li>
+        <li><a href="#locations" class="nav-link">Locations</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v3"/><path d="M12 19v3"/><path d="M4.2 4.2l2.1 2.1"/><path d="M17.7 17.7l2.1 2.1"/><path d="M2 12h3"/><path d="M19 12h3"/><path d="M4.2 19.8l2.1-2.1"/><path d="M17.7 6.3l2.1-2.1"/></g></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
+      </button>
+      <a href="#book" class="btn btn-primary btn-sm">Book Eye Test</a>
+      <button class="icon-btn nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path class="bar bar1" d="M3 6h18"/><path class="bar bar2" d="M3 12h18"/><path class="bar bar3" d="M3 18h18"/></g></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <video class="hero-bg-video" id="heroBgVideo" autoplay muted loop playsinline preload="auto" poster="assets/video/poster.jpg" aria-hidden="true" disablepictureinpicture disableremoteplayback>
+      <source src="assets/video/video.mp4" type="video/mp4">
+    </video>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-spotlight" id="heroSpotlight" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <div class="hero-copy reveal">
+        <span class="eyebrow"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4Z"/></svg>Trusted Eyewear Studio Since 2023</span>
+        <h1 class="hero-heading" id="heroHeading">
+          <span class="headline-slide is-active">
+            <span class="word" style="--i:0">See</span>
+            <span class="word" style="--i:1">the</span>
+            <span class="word" style="--i:2">World</span>
+            <span class="word" style="--i:3">in</span>
+            <span class="word text-accent shimmer-text" style="--i:4">Perfect&nbsp;Clarity</span>
+          </span>
+          <span class="headline-slide">
+            <span class="word" style="--i:0">Enhance</span>
+            <span class="word" style="--i:1">Your</span>
+            <span class="word text-accent shimmer-text" style="--i:2">Vision,</span>
+            <span class="word" style="--i:3">Every</span>
+            <span class="word" style="--i:4">Day</span>
+          </span>
+        </h1>
+        <p class="hero-sub">Precision eye tests, handpicked local &amp; international frames, and genuine Zeiss lenses — all under one roof, priced for real people.</p>
+        <div class="hero-actions">
+          <a href="#book" class="btn btn-primary btn-lg">
+            Book Free Eye Test
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#frames" class="btn btn-glass-dark btn-lg">Explore Frames</a>
+        </div>
+        <div class="hero-trust">
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <p><strong>4.9/5</strong> from 1,500+ patients across our stores</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-bar reveal">
+    <div class="container stats-grid">
+      <div class="stat">
+        <span class="stat-num" data-count="3">0</span><span class="stat-suffix"></span>
+        <p>Years of Trust</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="1.5">0</span><span class="stat-suffix">K</span>
+        <p>Happy Customers</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="20">0</span><span class="stat-suffix">+</span>
+        <p>Frame Brands</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="4">0</span><span class="stat-suffix">.9★</span>
+        <p>Average Rating</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-center">What We Do</span>
+        <h2>Everything Your Eyes Need, In One Visit</h2>
+        <p>From the first vision test to the final polish on your new lenses — our certified team handles every step with care.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+          </div>
+          <h3>Comprehensive Eye Test</h3>
+          <p>Free precision checkups with certified optometrists using advanced digital refraction equipment — accurate to the decimal.</p>
+          <a href="#book" class="card-link">Book a slot <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6.5" cy="13" r="4"/><circle cx="17.5" cy="13" r="4"/><path d="M10.5 12h3"/><path d="M2.5 11 4 8"/><path d="M21.5 11 20 8"/></g></svg>
+          </div>
+          <h3>Frames For Every Face</h3>
+          <p>A curated wall of homegrown craftsmanship and international icons — acetate, titanium, rimless, and everything between.</p>
+          <a href="#frames" class="card-link">Browse collection <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.2"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></g></svg>
+          </div>
+          <h3>Zeiss Precision Lenses</h3>
+          <p>Genuine German-engineered Zeiss lenses — anti-glare, UV-protected, blue-light filtered — priced to be affordable, not exclusive.</p>
+          <a href="#zeiss" class="card-link">See lens options <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 1 1 8 8"/><path d="M4 12v5M4 12H9"/></g></svg>
+          </div>
+          <h3>Contact Lenses &amp; Sunwear</h3>
+          <p>Daily, monthly, and colored contact lenses plus polarized sunglasses from the same brands you trust for your everyday frames.</p>
+          <a href="#contact" class="card-link">Ask us <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODERN EYE CHECKUP -->
+  <section class="section section-alt" id="eye-checkup">
+    <div class="container checkup-grid">
+      <div class="checkup-visual reveal reveal-left tilt-card">
+        <picture>
+          <source srcset="assets/products/eye-checkup.webp" type="image/webp">
+          <img src="assets/products/eye-checkup.jpg" alt="Digital autorefractor with computer screen used for modern eye examinations" loading="lazy" width="900" height="1348">
+        </picture>
+        <span class="checkup-badge">Digital Precision</span>
+      </div>
+      <div class="checkup-copy reveal reveal-right">
+        <span class="eyebrow">Advanced Diagnostics</span>
+        <h2>Eye Tests, Done The Modern Way</h2>
+        <p>No guesswork, no outdated charts. Every visit starts with computerized refraction and digital mapping — so your prescription is precise from the very first reading.</p>
+        <ul class="checkup-list">
+          <li>
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 6h16v11H4z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M9 21h6M12 17v4"/></svg>
+            <div><strong>Digital auto-refractor</strong><span>Instant, computer-generated baseline reading in seconds</span></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            <div><strong>Computerized acuity &amp; astigmatism mapping</strong><span>Precise readings beyond a manual eye chart</span></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            <div><strong>Retina-safe LED lighting</strong><span>Comfortable, glare-free testing for every age</span></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M6 2h9l5 5v15H6Z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M15 2v5h5M9 13h6M9 17h6"/></svg>
+            <div><strong>Printed digital report</strong><span>Take your exact prescription with you, every time</span></div>
+          </li>
+        </ul>
+        <a href="#book" class="btn btn-primary">Book Your Eye Test</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMES COLLECTION -->
+  <section class="section section-alt" id="frames">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-center">The Collection</span>
+        <h2>Local Craft Meets Global Icons</h2>
+        <p>Tilt a frame to see it catch the light — every pair is fitted in-store by our opticians before it leaves with you.</p>
+      </div>
+
+      <div class="tabs reveal" role="tablist" aria-label="Frame collections">
+        <button class="tab active" role="tab" aria-selected="true" data-filter="all">All Frames</button>
+        <button class="tab" role="tab" aria-selected="false" data-filter="branded">Branded</button>
+        <button class="tab" role="tab" aria-selected="false" data-filter="local">Local Craft</button>
+      </div>
+
+      <div class="frames-grid" id="framesGrid">
+
+        <article class="frame-card tilt-card reveal" data-cat="branded">
+          <span class="frame-badge">Bestseller</span>
+          <div class="frame-visual">
+            <picture>
+              <source srcset="assets/products/frame-aviator.webp" type="image/webp">
+              <img src="assets/products/frame-aviator.jpg" alt="Meridian Aviator eyeglasses with gold metal frame and tinted lenses" loading="lazy" width="700" height="700">
+            </picture>
+          </div>
+          <div class="frame-info">
+            <h3>Meridian Aviator</h3>
+            <p class="frame-brand">Branded · Titanium</p>
+            <div class="frame-price"><span>₹6,499</span><s>₹8,999</s></div>
+          </div>
+        </article>
+
+        <article class="frame-card tilt-card reveal" data-cat="local">
+          <div class="frame-visual">
+            <picture>
+              <source srcset="assets/products/frame-square.webp" type="image/webp">
+              <img src="assets/products/frame-square.jpg" alt="Modern black rectangular acetate eyeglasses" loading="lazy" width="700" height="700">
+            </picture>
+          </div>
+          <div class="frame-info">
+            <h3>Modern Rectangle</h3>
+            <p class="frame-brand">Local Craft · Acetate</p>
+            <div class="frame-price"><span>₹2,299</span></div>
+          </div>
+        </article>
+
+        <article class="frame-card tilt-card reveal" data-cat="branded">
+          <span class="frame-badge">New</span>
+          <div class="frame-visual">
+            <picture>
+              <source srcset="assets/products/frame-round.webp" type="image/webp">
+              <img src="assets/products/frame-round.jpg" alt="Round gunmetal eyeglasses with thin metal frame" loading="lazy" width="700" height="700">
+            </picture>
+          </div>
+          <div class="frame-info">
+            <h3>Heritage Round</h3>
+            <p class="frame-brand">Branded · Stainless Steel</p>
+            <div class="frame-price"><span>₹5,199</span></div>
+          </div>
+        </article>
+
+        <article class="frame-card tilt-card reveal" data-cat="local">
+          <div class="frame-visual">
+            <picture>
+              <source srcset="assets/products/frame-cateye.webp" type="image/webp">
+              <img src="assets/products/frame-cateye.jpg" alt="Black cat-eye sunglasses with dark lenses" loading="lazy" width="700" height="700">
+            </picture>
+          </div>
+          <div class="frame-info">
+            <h3>Cat-Eye Sunglasses</h3>
+            <p class="frame-brand">Local Craft · Acetate</p>
+            <div class="frame-price"><span>₹2,799</span></div>
+          </div>
+        </article>
+
+        <article class="frame-card tilt-card reveal" data-cat="branded">
+          <div class="frame-visual">
+            <picture>
+              <source srcset="assets/products/frame-browline.webp" type="image/webp">
+              <img src="assets/products/frame-browline.jpg" alt="Browline eyeglasses with black top rim and clear lower frame" loading="lazy" width="700" height="700">
+            </picture>
+          </div>
+          <div class="frame-info">
+            <h3>Executive Browline</h3>
+            <p class="frame-brand">Branded · Acetate &amp; Metal</p>
+            <div class="frame-price"><span>₹4,599</span></div>
+          </div>
+        </article>
+
+        <article class="frame-card tilt-card reveal" data-cat="local">
+          <span class="frame-badge">Handmade</span>
+          <div class="frame-visual">
+            <picture>
+              <source srcset="assets/products/frame-wood.webp" type="image/webp">
+              <img src="assets/products/frame-wood.jpg" alt="Black square eyeglasses with natural wood-toned temple arms" loading="lazy" width="700" height="700">
+            </picture>
+          </div>
+          <div class="frame-info">
+            <h3>Wood-Trim Frame</h3>
+            <p class="frame-brand">Local Craft · Wood-Toned Accents</p>
+            <div class="frame-price"><span>₹1,999</span></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ZEISS SPOTLIGHT -->
+  <section class="section zeiss-section" id="zeiss">
+    <div class="container zeiss-grid">
+      <div class="zeiss-copy reveal reveal-left">
+        <span class="eyebrow">Precision Optics</span>
+        <h2>Genuine Zeiss Lenses. Honest Pricing.</h2>
+        <p>We're a certified Zeiss lens partner — which means you get German-engineered clarity, not a compromise. No inflated "premium" markup, just the real thing at a price built for everyday people.</p>
+        <ul class="zeiss-list">
+          <li><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 13 4 4L19 7"/></svg>Anti-glare &amp; scratch-resistant coating</li>
+          <li><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 13 4 4L19 7"/></svg>100% UV protection, built in</li>
+          <li><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 13 4 4L19 7"/></svg>Blue-light filtering for screens</li>
+          <li><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 13 4 4L19 7"/></svg>Easy EMI, starting at ₹399/month</li>
+        </ul>
+        <a href="#book" class="btn btn-primary">Get Zeiss Lenses</a>
+      </div>
+
+      <div class="zeiss-visual reveal reveal-right" aria-hidden="true">
+        <div class="lens-orb">
+          <div class="lens-ring r1"></div>
+          <div class="lens-ring r2"></div>
+          <div class="lens-ring r3"></div>
+          <div class="lens-core"></div>
+          <span class="lens-glint"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-center">Why Blinkk</span>
+        <h2>Care That Shows In The Details</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-item reveal">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 2 4 5.5v6C4 16.7 7.4 21 12 22c4.6-1 8-5.3 8-10.5v-6L12 2Z"/></svg>
+          <h3>Certified Optometrists</h3>
+          <p>Every test is conducted by trained, certified professionals — not a quick kiosk scan.</p>
+        </div>
+        <div class="feature-item reveal">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></g></svg>
+          <h3>Certified Zeiss Partner</h3>
+          <p>Authorized to fit and sell genuine Zeiss lenses with full manufacturer warranty.</p>
+        </div>
+        <div class="feature-item reveal">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6.5" cy="13" r="4"/><circle cx="17.5" cy="13" r="4"/><path d="M10.5 12h3"/></g></svg>
+          <h3>20+ Frame Brands</h3>
+          <p>Local artisans and global names, curated side by side — never one at the cost of the other.</p>
+        </div>
+        <div class="feature-item reveal">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 2M21 12a9 9 0 1 1-9-9"/></svg>
+          <h3>7-Day Fit Guarantee</h3>
+          <p>Not comfortable? We adjust or replace your frame within 7 days, free of charge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-center">Patient Stories</span>
+        <h2>Loved By The People Who See Through Us</h2>
+      </div>
+
+      <div class="testimonial-carousel reveal" id="testimonialCarousel">
+        <div class="testimonial-track" id="testimonialTrack">
+          <blockquote class="testimonial-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <p>"The eye test was more thorough than any I've had before, and my Zeiss lenses feel completely different from my old pair — sharper, lighter, no glare at night."</p>
+            <footer><strong>Ananya Rao</strong><span>Verified Patient · Rampurhat Store</span></footer>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <p>"I wanted a local, handmade frame and they had an entire wall of them alongside the big brands. Found my Modern Rectangle pair in 20 minutes."</p>
+            <footer><strong>Rohit Malhotra</strong><span>Verified Patient · Rajgram Store</span></footer>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <p>"Affordable Zeiss lenses sounded too good to be true until I actually priced it out here versus everywhere else. Genuine product, honest EMI."</p>
+            <footer><strong>Sana Fatima</strong><span>Verified Patient · Rampurhat Store</span></footer>
+          </blockquote>
+        </div>
+        <div class="carousel-controls">
+          <button class="icon-btn" id="prevSlide" type="button" aria-label="Previous testimonial">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M15 6l-6 6 6 6"/></svg>
+          </button>
+          <div class="carousel-dots" id="carouselDots"></div>
+          <button class="icon-btn" id="nextSlide" type="button" aria-label="Next testimonial">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M9 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOK APPOINTMENT -->
+  <section class="section section-alt" id="book">
+    <div class="container book-grid">
+      <div class="book-copy reveal reveal-left">
+        <span class="eyebrow">Book A Visit</span>
+        <h2>Reserve Your Free Eye Test</h2>
+        <p>Pick a store, a time that suits you, and we'll have an optometrist ready. Takes less than a minute.</p>
+        <div class="book-perks">
+          <div><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 2M21 12a9 9 0 1 1-9-9"/></svg>15-minute checkups, no long waits</div>
+          <div><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m5 13 4 4L19 7"/></svg>Zero cost, zero obligation to buy</div>
+          <div><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M20 21a8 8 0 1 0-16 0"/><circle cx="12" cy="7" r="4" fill="none" stroke="currentColor" stroke-width="2"/></svg>Certified optometrist, every time</div>
+        </div>
+      </div>
+
+      <form class="book-form reveal reveal-right" id="bookingForm" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="fullName">Full name</label>
+            <input type="text" id="fullName" name="fullName" required autocomplete="name" placeholder="Your name">
+            <span class="field-error" id="err-fullName">Please enter your name.</span>
+          </div>
+          <div class="form-field">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="10-digit mobile number" pattern="[0-9]{10}">
+            <span class="field-error" id="err-phone">Enter a valid 10-digit number.</span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="service">Service</label>
+            <select id="service" name="service" required>
+              <option value="">Choose a service</option>
+              <option>Comprehensive Eye Test</option>
+              <option>Frame Fitting</option>
+              <option>Zeiss Lens Consultation</option>
+              <option>Contact Lens Fitting</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="store">Preferred store</label>
+            <select id="store" name="store" required>
+              <option value="">Choose a store</option>
+              <option>Rampurhat</option>
+              <option>Rajgram</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="date">Preferred date</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div class="form-field">
+            <label for="time">Preferred time</label>
+            <input type="time" id="time" name="time" required>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">
+          <span class="btn-text">Confirm Booking</span>
+        </button>
+        <p class="form-success" id="formSuccess" role="status" aria-live="polite">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 13 4 4L19 7"/></svg>
+          Opening your email app to send this booking to blinkkopticals@gmail.com — hit send and we'll call to confirm.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- LOCATIONS -->
+  <section class="section" id="locations">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-center">Visit Us</span>
+        <h2>Two Stores, One Standard Of Care</h2>
+      </div>
+      <div class="locations-grid">
+        <article class="location-card reveal">
+          <div class="location-map" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+          </div>
+          <h3>Blinkk — Rampurhat</h3>
+          <p>Bamakhepa Road, opposite Yamaha Showroom, Rampurhat, West Bengal</p>
+          <p class="location-meta"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 2M21 12a9 9 0 1 1-9-9"/></svg>Call for hours</p>
+          <p class="location-meta"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2Z"/></svg>Phone coming soon</p>
+        </article>
+        <article class="location-card reveal">
+          <div class="location-map" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+          </div>
+          <h3>Blinkk — Rajgram</h3>
+          <p>Hospital Road, Rajgram, West Bengal</p>
+          <p class="location-meta"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 2M21 12a9 9 0 1 1-9-9"/></svg>Call for hours</p>
+          <p class="location-meta"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2Z"/></svg>Phone coming soon</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / NEWSLETTER CTA -->
+  <section class="cta-band reveal" id="contact">
+    <div class="container cta-inner">
+      <div>
+        <h2>Have A Question Before You Visit?</h2>
+        <p>Write to us or drop by — our team replies within a few hours.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-glass-dark" href="mailto:blinkkopticals@gmail.com">Email Us</a>
+        <a class="btn btn-primary" href="#book">Book Eye Test</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="brand brand-transparent" aria-label="Blinkk — Home">
+        <img src="assets/logo/blinkk-wordmark-only.png" alt="Blinkk" class="brand-logo-img">
+      </a>
+      <p class="brand-tagline">Enhance Your Vision</p>
+      <p>Precision eyewear, honest pricing, and care that lasts long after you leave the store.</p>
+      <div class="social-row">
+        <a href="#" class="icon-btn" aria-label="Blinkk on Instagram"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg></a>
+        <a href="#" class="icon-btn" aria-label="Blinkk on Facebook"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M14 4.3c-.7-.1-1.5-.2-2.2-.2-2.3 0-3.9 1.5-3.9 4.1v2.2H5.6v3h2.3V21h3v-7.6h2.4l.4-3h-2.8V8.4c0-.9.3-1.4 1.4-1.4h1.7V4.3Z"/></svg></a>
+        <a href="#" class="icon-btn" aria-label="Blinkk on X"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 4l16 16M20 4 4 20"/></svg></a>
+      </div>
+    </div>
+
+    <nav class="footer-col" aria-label="Explore">
+      <h4>Explore</h4>
+      <a href="#frames">Frames</a>
+      <a href="#zeiss">Zeiss Lenses</a>
+      <a href="#services">Eye Test</a>
+      <a href="#locations">Locations</a>
+    </nav>
+
+    <nav class="footer-col" aria-label="Company">
+      <h4>Company</h4>
+      <a href="#book">Book Appointment</a>
+      <a href="#contact">Contact</a>
+      <a href="#">Careers</a>
+      <a href="#">Warranty Policy</a>
+    </nav>
+
+    <div class="footer-col footer-newsletter">
+      <h4>Stay In Focus</h4>
+      <p>Offers on frames and Zeiss lenses, straight to your inbox.</p>
+      <form class="newsletter-form" id="newsletterForm" novalidate>
+        <label class="sr-only" for="newsletterEmail">Email address</label>
+        <input type="email" id="newsletterEmail" placeholder="you@email.com" required>
+        <button type="submit" class="btn btn-primary btn-sm" aria-label="Subscribe">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </form>
+      <p class="newsletter-success" id="newsletterSuccess" role="status" aria-live="polite">Subscribed! Watch your inbox.</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> Blinkk. All rights reserved.</p>
+    <p class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
